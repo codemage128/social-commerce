@@ -1,5 +1,5 @@
 {
-  "name": "argon-dashboard-pro-react",
+  "name": "social-commerce",
   "version": "1.0.0",
   "private": true,
   "homepage": "http://futuredev918.github.io/social-commerce",
@@ -54,6 +54,7 @@
     "compile-sass": "node-sass src/assets/scss/argon-dashboard-pro-react.scss src/assets/css/argon-dashboard-pro-react.css",
     "minify-sass": "node-sass src/assets/scss/argon-dashboard-pro-react.scss src/assets/css/argon-dashboard-pro-react.min.css --output-style compressed",
     "map-sass": "node-sass src/assets/scss/argon-dashboard-pro-react.scss src/assets/css/argon-dashboard-pro-react.css --source-map true",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
