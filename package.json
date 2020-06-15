@@ -2,7 +2,7 @@
   "name": "social-commerce",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://futuredev918.github.io/social-commerce",
+  "homepage": "https://futuredev918.github.io/social-commerce",
   "dependencies": {
     "@fullcalendar/core": "4.0.2",
     "@fullcalendar/daygrid": "4.0.1",
